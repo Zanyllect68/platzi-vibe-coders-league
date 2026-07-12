@@ -1,111 +1,62 @@
-# 🐾 Patitas Felices — Asistente Virtual
+# 🚀 Mi Ruta en la Vibe Coders League (Platzi)
 
-> **"Donde tu mascota siempre es familia"**
-> Chatbot de atención al cliente para una veterinaria y pet shop en Medellín, impulsado por IA.
+> 🏆 **Repositorio oficial para la segunda edición de la Vibe Coders League (10 de Julio - 13 de Agosto, 2026).**
+> 💙 **Si te gusta mi trabajo, apóyame con tu voto en Platzi: [👉 Enlace a mi comentario de Platzi]**
 
-Una interfaz conversacional moderna para responder preguntas de clientes sobre servicios, precios, ubicaciones, horarios y promociones — todo desde una base de conocimiento curada.
-
----
-
-## 🐾 Stack
-
-| Capa | Tecnología |
-|------|------------|
-| **Frontend** | Next.js 16 (App Router, Turbopack) |
-| **Lenguaje** | TypeScript, React 19 |
-| **Estilos** | Tailwind CSS 4 + shadcn/ui |
-| **IA** | Llama 3.1 8B Instruct vía NVIDIA NIM |
-| **SDK** | AI SDK v5 + `@ai-sdk/openai-compatible` |
-| **Iconos** | Lucide React |
-| **Fuentes** | Nunito + Nunito Sans (vía `next/font`) |
+¡Hola! 👋 Bienvenido/a a mi espacio de *vibe coding*. En este repositorio oficial estaré documentando, programando y subiendo todas las soluciones a los retos diarios liberados durante la competencia de Platzi. El objetivo está claro: iterar rápido, construir soluciones reales con Inteligencia Artificial y escalar en la tabla de posiciones de Latinoamérica. 🔥
 
 ---
 
-## 📁 Estructura del proyecto
+## 📅 Progreso y Proyectos Entregados
 
-```
-proyecto 1/
-├── app/                   # App Router (páginas, layout, API)
-│   ├── api/chat/          # Endpoint de streaming del chat
-│   ├── globals.css        # Estilos globales (Tailwind + tema)
-│   ├── layout.tsx         # Layout raíz (dark mode, fuentes)
-│   └── page.tsx           # Página principal → PatyChat
-├── components/            # Componentes React
-│   ├── chat/              # Header, Empty, Message, PatyChat
-│   └── ui/                # button (shadcn)
-├── lib/                   # system-prompt.ts, utils.ts
-├── public/                # Íconos, logos, placeholders
-├── .env.local             # ← secrets (NO se commitea)
-├── next.config.mjs
-├── package.json
-├── pnpm-lock.yaml
-├── tsconfig.json
-```
+Aquí puedes ver la bitácora de los retos diarios que voy completando. Cada carpeta contiene el código fuente independiente, sus instrucciones de instalación y su propio demo.
+
+| Día | Proyecto | Descripción Corta | Stack Tecnológico | Link al Código |
+| :---: | :--- | :--- | :--- | :---: |
+| **01** | 🐾 **Patitas Felices** | Asistente virtual estricto para atención 24/7 de una veterinaria en Medellín. | Python, Streamlit, Gemini 1.5 Flash | [Ver Proyecto](./patitas-felices-assistant) |
+| **02** | *(Próximo Reto)* | *Se desbloquea pronto...* | *Por definir* | ⏳ |
+| **03** | *(Próximo Reto)* | *Se desbloquea pronto...* | *Por definir* | ⏳ |
+
+*(Nota: Esta tabla se irá actualizando día a día a medida que se liberen las clases).*
 
 ---
 
-## 🚀 Empezar
+## 🛠️ Reglas de Oro de mi Repositorio
 
-### 1. Instalar dependencias
-
-```bash
-cd "proyecto 1"
-npm install
-```
-
-### 2. Variables de entorno
-
-Crea `proyecto 1/.env.local`:
-
-```env
-NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
-NVIDIA_API_KEY=tu_api_key_aqui
-NVIDIA_MODEL=meta/llama-3.1-8b-instruct
-```
-
-> 🔑 Regístrate gratis en [build.nvidia.com](https://build.nvidia.com) para obtener tu API key.
-
-### 3. Desarrollo
-
-```bash
-cd "proyecto 1"
-npm run dev
-```
-
-Abre [http://localhost:3000](http://localhost:3000).
+Para asegurar una competencia justa y de alto nivel, cumplo a rajatabla las reglas del torneo:
+1. 🚫 **No Reciclar:** Todo el código de estos proyectos es 100% nuevo, escrito desde cero durante las fechas oficiales de la liga.
+2. ⚡ **Proyectos Válidos:** Cada entrega cuenta con su código limpio, instrucciones claras para ejecutar en local y su enlace de despliegue en vivo.
+3. 🤝 **Comunidad Primero:** Todo el código es abierto y público para que la comunidad de Platzi pueda auditarlo, aprender de él y dejar su feedback.
 
 ---
 
-## 🌐 Despliegue en Vercel
+## 🚀 Cómo Navegar por este Repositorio
 
-1. Sube este repo a GitHub
-2. Importa el proyecto en [vercel.com](https://vercel.com)
-3. Configura **Root Directory**: `proyecto 1`
-4. Agrega las variables de entorno en **Settings → Environment Variables**:
-   - `NVIDIA_BASE_URL`
-   - `NVIDIA_API_KEY`
-   - `NVIDIA_MODEL`
-5. Deploy
+Cada proyecto está encapsulado en su propio directorio para evitar conflictos de dependencias:
 
-> ⚠️ **Nunca** commitees `.env.local` ni subas la API key al repositorio. `.gitignore` ya lo excluye por defecto.
+1. Entra a la carpeta del proyecto que te interese (ej: `cd patitas-felices-assistant`).
+2. Sigue las instrucciones del `README.md` interno de esa carpeta para crear tu entorno virtual e instalar los `requirements.txt` específicos de ese reto.
 
 ---
 
-## 🤖 Personalidad del asistente
+## 🏆 El Camino al Bracket en Vivo
 
-**Nombre:** Paty
-**Tono:** Semi-formal, cercana, empática. Trata de "tú".
-**Idioma:** Español colombiano.
-**Límite:** Solo responde desde la base de conocimiento. Si no sabe algo, deriva al equipo humano.
-
-El prompt completo está en `proyecto 1/lib/system-prompt.ts`.
-
----
-
-## 📚 Documentación
-
-- Documentación académica y notas del proyecto universitario en [`../docs/`](../docs/)
+* **10 al 19 de Julio:** Fase de acumulación de votos de la comunidad para entrar al Top 16.
+* **23 de Julio:** Octavos de Final (Platzi Live).
+* **30 de Julio:** Cuartos de Final (Platzi Live).
+* **06 de Agosto:** Semifinal (Platzi Live).
+* **13 de Agosto:** Gran Final 🇨🇴 (Rumbo a Platzi Conf Bogotá).
 
 ---
 
-🐾 **Regla de oro:** El asistente nunca inventa información. Si no sabe algo, lo dice honestamente y deriva al equipo humano.
+## 👥 Contacto y Comunidad
+
+¿Estás compitiendo también o quieres dejarme alguna sugerencia sobre el código? ¡Conectemos!
+
+* **Platzi Profile:** [andresfelipegt70](https://platzi.com/p/andresfelipegt70/)
+* **GitHub:** [@Zanyllect68](https://github.com/Zanyllect68)
+* **LinkedIn:** [Andrés Felipe Galeano Téllez](https://www.linkedin.com/in/andres-felipe-galeano-tellez-a7285a250)
+
+---
+
+*Hecho con 💻, IA y mucha buena vibra desde Latinoamérica.* 🚀
