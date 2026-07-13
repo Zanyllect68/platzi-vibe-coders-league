@@ -14,8 +14,7 @@ Aquí puedes ver la bitácora de los retos diarios que voy completando. Cada car
 | Día | Proyecto | Descripción Corta | Stack Tecnológico | Link al Código |
 | :---: | :--- | :--- | :--- | :---: |
 | **01** | 🐾 **Patitas Felices** | Asistente virtual estricto para atención 24/7 de una veterinaria en Medellín. | Next.js 16, React 19, TypeScript, Tailwind CSS, shadcn/ui, Vercel AI SDK, Llama 3.1 8B Instruct (NVIDIA NIM) | [Ver Proyecto](./patitas-felices-assistant) |
-| **02** | 🤖 **VibeSquad AI** | Landing page con captura de leads para agencia automatizada de MVPs con IA en 48h. | Python (FastAPI), Supabase, React 18, Vite, Tailwind CSS 3 (oscuro/cyberpunk) | [Ver Proyecto](./vibesquad-ai) |
-| **03** | 📄 **Freelancer Contracts** | Generador de contratos freelance con wizard de 3 pasos, validaciones y almacenamiento en Supabase. | Python (FastAPI), Supabase, React 18, Vite, Tailwind CSS 3 (SaaS claro) | [Ver Proyecto](./freelancer-contracts) |
+| **02** | 📄 **Freelancer Contracts** | Generador de contratos freelance con wizard de 3 pasos, validaciones y almacenamiento en Supabase. | Python (FastAPI), Supabase, React 18, Vite, Tailwind CSS 3 (SaaS claro) | [Ver Proyecto](./freelancer-contracts) |
 
 *(Nota: Esta tabla se irá actualizando día a día a medida que se liberen las clases).*
 
