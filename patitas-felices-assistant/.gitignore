@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+.next/
+dist/
+build/
+*.egg-info/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+.env.example
+config.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs & temp files
+*.log
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Project-specific: ignore node_modules and env in each project folder
+*/node_modules/
+*/.env.local
+*/.env
+*/dist/
+*/build/
+*/.next/
