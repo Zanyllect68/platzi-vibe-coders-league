@@ -13,7 +13,7 @@ Aquí puedes ver la bitácora de los retos diarios que voy completando. Cada car
 
 | Día | Proyecto | Descripción Corta | Stack Tecnológico | Link al Código |
 | :---: | :--- | :--- | :--- | :---: |
-| **01** | 🐾 **Patitas Felices** | Asistente virtual estricto para atención 24/7 de una veterinaria en Medellín. | Python, Streamlit, Gemini 1.5 Flash | [Ver Proyecto](./patitas-felices-assistant) |
+| **01** | 🐾 **Patitas Felices** | Asistente virtual estricto para atención 24/7 de una veterinaria en Medellín. | Next.js 16, React 19, TypeScript, Tailwind CSS, shadcn/ui, Vercel AI SDK, Llama 3.1 8B Instruct (NVIDIA NIM) | [Ver Proyecto](./patitas-felices-assistant) |
 | **02** | *(Próximo Reto)* | *Se desbloquea pronto...* | *Por definir* | ⏳ |
 | **03** | *(Próximo Reto)* | *Se desbloquea pronto...* | *Por definir* | ⏳ |
 
