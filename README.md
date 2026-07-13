@@ -1,7 +1,9 @@
 # 🚀 Mi Ruta en la Vibe Coders League (Platzi)
 
 > 🏆 **Repositorio oficial para la segunda edición de la Vibe Coders League (10 de Julio - 13 de Agosto, 2026).**
-> 💙 **Si te gusta mi trabajo, apóyame con tu voto en Platzi: [👉 Vota por "Patitas Felices" aquí](https://platzi.com/comentario/5675447/)**
+> 💙 **Si te gusta mi trabajo, apóyame con tu voto en Platzi:**
+> - [👉 Vota por "Patitas Felices" (Día 01)](https://platzi.com/comentario/5675447/)
+> - [👉 Vota por "Freelancer Contracts" (Día 02)](https://platzi.com/comentario/5676021/)
 
 ¡Hola! 👋 Bienvenido/a a mi espacio de *vibe coding*. En este repositorio oficial estaré documentando, programando y subiendo todas las soluciones a los retos diarios liberados durante la competencia de Platzi. El objetivo está claro: iterar rápido, construir soluciones reales con Inteligencia Artificial y escalar en la tabla de posiciones de Latinoamérica. 🔥
 
