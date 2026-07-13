@@ -11,10 +11,10 @@
 
 Aquí puedes ver la bitácora de los retos diarios que voy completando. Cada carpeta contiene el código fuente independiente, sus instrucciones de instalación y su propio demo.
 
-| Día | Proyecto | Descripción Corta | Stack Tecnológico | Link al Código |
-| :---: | :--- | :--- | :--- | :---: |
-| **01** | 🐾 **Patitas Felices** | Asistente virtual estricto para atención 24/7 de una veterinaria en Medellín. | Next.js 16, React 19, TypeScript, Tailwind CSS, shadcn/ui, Vercel AI SDK, Llama 3.1 8B Instruct (NVIDIA NIM) | [Ver Proyecto](./patitas-felices-assistant) |
-| **02** | 📄 **Freelancer Contracts** | Generador de contratos freelance con wizard de 3 pasos, validaciones y almacenamiento en Supabase. | React 18, Vite, Tailwind CSS 3, Python (FastAPI), Supabase, Vercel (Frontend), Railway (Backend) | [Ver Proyecto](./freelancer-contracts) |
+| Día | Proyecto | Descripción Corta | Stack Tecnológico | Código | Demo |
+| :---: | :--- | :--- | :--- | :---: | :---: |
+| **01** | 🐾 **Patitas Felices** | Asistente virtual estricto para atención 24/7 de una veterinaria en Medellín. | Next.js 16, React 19, TypeScript, Tailwind CSS, shadcn/ui, Vercel AI SDK, Llama 3.1 8B Instruct (NVIDIA NIM) | [🔗](./patitas-felices-assistant) | — |
+| **02** | 📄 **Freelancer Contracts** | Generador de contratos freelance con wizard de 3 pasos, validaciones y almacenamiento en Supabase. | React 18, Vite, Tailwind CSS 3, Python (FastAPI), Supabase, Vercel (Frontend), Railway (Backend) | [🔗](./freelancer-contracts) | [🌐](https://platzi-vibe-coders-league-2026.vercel.app/) |
 
 *(Nota: Esta tabla se irá actualizando día a día a medida que se liberen las clases).*
 
