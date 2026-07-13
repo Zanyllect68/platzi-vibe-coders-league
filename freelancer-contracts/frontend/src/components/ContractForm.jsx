@@ -199,7 +199,8 @@ export default function ContractForm() {
     setStatus('loading')
     setServerError('')
     try {
-      const res = await fetch('/api/generate-contract', {
+      const base = import.meta.env.VITE_API_URL || '/api'
+      const res = await fetch(`${base}/generate-contract`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
