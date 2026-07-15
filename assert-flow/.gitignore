@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.output/
+.tanstack/
+.wrangler/
+.env
+__pycache__/
+*.pyc
+bun.lock
+bunfig.toml
