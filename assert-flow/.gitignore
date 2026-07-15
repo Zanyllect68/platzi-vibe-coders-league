@@ -3,6 +3,7 @@ dist/
 .output/
 .tanstack/
 .wrangler/
+.vercel/
 .env
 __pycache__/
 *.pyc
